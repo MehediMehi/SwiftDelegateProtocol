@@ -27,10 +27,8 @@ class ViewController: UIViewController {
 
 extension ViewController: DataSelectionDelegate {
     func didTapSelectButton(Text: String) {
-        func didTapSelectButton(Text: String){
-            showDataTextView.text = Text
-            print("In delegate ext Func")
-        }
+        showDataTextView.text = Text
+        print("In delegate ext Func")
     }
 }
 
